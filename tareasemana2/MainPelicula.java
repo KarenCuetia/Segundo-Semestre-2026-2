@@ -1,11 +1,11 @@
-package Tareasemana2;
+package tareasemana2;
 
 public class MainPelicula {
-       public static void main(String[] args) {
+       public static void main(String[] args){
          
         //creacion de objeto de la clase de pelicula
-        Pelicula objPelicula1 = new pelicula();
-        pelicula objPelicula2 = new pelicula();
+        Pelicula objPelicula1 = new Pelicula();
+        Pelicula objPelicula2 = new Pelicula();
 
         objPelicula1 .titulo = "El increible castillo vagabundo";
         objPelicula1 .director = "Hayao Miyazaki";
@@ -15,9 +15,9 @@ public class MainPelicula {
         objPelicula2 .titulo = "Your Name";
         objPelicula2 .director = "Makoto Shinkai";
         objPelicula2 .duracion = 106;
-        objePelicula2 .genero = "Animacion";
+        objPelicula2 .genero = "Animacion";
 
         objPelicula1 .mostrarInformacio();
-        objPelicula2 .mostrarInfromacion();
+        objPelicula2 .mostrarInformacio();
 
-       }
+             }      }

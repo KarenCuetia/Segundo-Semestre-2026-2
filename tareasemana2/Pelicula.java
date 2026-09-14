@@ -1,4 +1,4 @@
-package Tareasemana2;
+package tareasemana2;
 
 public class Pelicula {
     //Atributos de la clase
@@ -13,11 +13,11 @@ public: Es publico
 void: no retona nada
 mostrarinformacion(): Es el nombre del metodo, no recibe parametros
 */
-pulic void mostrarInformacio(){
+public void mostrarInformacio(){
     System.out.println("titulo: " + titulo);
     System.out.println("director: " + director);
     System.out.println("duracion: " + duracion);
-    System.out.println("genero: " + genero);)
+    System.out.println("genero: " + genero);
 
     
     }
@@ -25,4 +25,4 @@ pulic void mostrarInformacio(){
     
 }
     
-}
+
