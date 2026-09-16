@@ -27,6 +27,10 @@ package POO.semana3;
   public void recargarCuenta(double cantidad){
     saldo += cantidad;
   }
+  //crear metodo retirar
+  public void retirarCuenta(double retiro){
+    saldo -= retiro; 
+  } 
   
 }
 
