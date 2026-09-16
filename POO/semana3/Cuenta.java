@@ -23,6 +23,11 @@ package POO.semana3;
     return "Cuenta [ cedula:" + cedula + " nombre: " + nombre + " numerocuenta: " + numeroCuenta + 
                      " tipoCuenta: " + tipoCuenta + " saldo: " + saldo + "]";
   }
+  //Creación del método recargar
+  public void recargarCuenta(double cantidad){
+    saldo += cantidad;
+  }
+  
 }
 
   
