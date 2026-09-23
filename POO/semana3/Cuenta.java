@@ -24,13 +24,30 @@ package POO.semana3;
                      " tipoCuenta: " + tipoCuenta + " saldo: " + saldo + "]";
   }
   //Creación del método recargar
-  public void recargarCuenta(double cantidad){
-    saldo += cantidad;
-  }
+  public void recargarCuenta(double cantidad) {
+
+    if (cantidad <= 0) {
+        System.out.println("La cantidad debe ser mayor que cero.");
+    } 
+    else {
+        saldo += cantidad;
+        System.out.println("Recarga realizada correctamente.");
+    }
+}
   //crear metodo retirar
-  public void retirarCuenta(double retiro){
-    saldo -= retiro; 
-  } 
+  public void retirarCuenta(double retiro) {
+
+    if (retiro <= 0) {
+        System.out.println("El valor del retiro debe ser mayor que cero.");
+    } 
+    else if (retiro > saldo) {
+        System.out.println("Saldo insuficiente.");
+    } 
+    else {
+        saldo -= retiro;
+        System.out.println("Retiro realizado correctamente.");
+    }
+}
   
 }
 
