@@ -1,14 +1,28 @@
-package POO.Semana4;
+package POO.semana4;
 
 public class MainVehiculos {
-    public static void main(String[] args) {
-        // creacion de objeto
-        Vehiculos objVehiculos1 = new Vehiculos("KIA", "Picanto", 2020, 80000000.0);
-        Vehiculos objVehiculos2 = new Vehiculos("Honda", "Civic", 2019, 18000000.0);
-        System.out.println(objVehiculos1.toString());
-        System.out.println(objVehiculos2.toString());
+   public static void main(String[] args) {
 
-        objVehiculos1.mostrarInformacion();
-        objVehiculos2.mostrarInformacion();
+        // Crear el objeto
+        Vehiculos objvehiculos1 = new Vehiculos("KIA", "picanto", 2020, 90000000);
+        Vehiculos objvehiculos2 = new Vehiculos("TOYOTA", "prado", 2022,120000000 );
+        // Mostrar información
+        System.out.println(objvehiculos1.toString());
+        System.out.println(objvehiculos2.toString());
+        
+        
+        // Primera venta
+        objvehiculos1.vender();
+
+        // Intentar vender nuevamente
+        objvehiculos1.vender();
+
+        objvehiculos2.vender();
+
+        objvehiculos2.vender();
+
+        // Mostrar información final
+        System.out.println(objvehiculos1);
+        System.out.println(objvehiculos2);
     }
 }
