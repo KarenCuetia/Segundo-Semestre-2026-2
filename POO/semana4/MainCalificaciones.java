@@ -6,7 +6,7 @@ public class MainCalificaciones {
     public static void main(String[] args) {
         
         // creacion de objeto
-        Calificaciones objCalificaciones1 = new Calificaciones ("1098765456","Daniela","022014","2do semestre",4.0,4.2,3.0);
+        Calificaciones objCalificaciones1 = new Calificaciones("1098765456","Daniela","022014","2do semestre",4.0,4.2,5.0);
         
         System.out.println(objCalificaciones1.toString());
         

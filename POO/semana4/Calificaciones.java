@@ -11,7 +11,7 @@ class Calificaciones {
 
 
 
-
+//contructor
  public Calificaciones(String cedula, String nombre, String codigo, String curso, double nota1, double nota2, double nota3){
 
     this.cedula = cedula;
@@ -22,6 +22,7 @@ class Calificaciones {
     this.nota2 = nota2;
     this.nota3 = nota3;
  }
+ //ceacion de metodos 
  public String toString(){
    return  "Calificaciones [ cedula:" + cedula + "nombre:" + nombre + "codigo:" + codigo + "curso:" + curso + "nota1:" + nota1 + "nota2" + nota2 + "nota3" + nota3 + "[]";
  }
