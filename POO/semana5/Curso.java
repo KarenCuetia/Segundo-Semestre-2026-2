@@ -83,12 +83,7 @@ public class Curso {
     // Mostrar información del curso
     public void mostrarInformacion() {
 
-        System.out.println(
-            "Curso: " + codigo +
-            " - " + nombre +
-            " | Créditos: " + creditos +
-            " | Docente: " + docente +
-            " | Cupos: " + cupoMaximo
+        System.out.println( "Curso: " + codigo + " - " + nombre +  " Créditos: " + creditos +"  Docente: " + docente + " Cupos: " + cupoMaximo
         );
     }
 
@@ -102,12 +97,7 @@ public class Curso {
     @Override
     public String toString() {
 
-        return "Curso [" +
-                "codigo: " + codigo +
-                ", nombre: " + nombre +
-                ", creditos: " + creditos +
-                ", docente: " + docente +
-                ", cupoMaximo: " + cupoMaximo +
-                "]";
+        return "Curso [" +  "codigo: " + codigo + ", nombre: " + nombre + ", creditos: " + creditos + ", docente: " + docente +
+                ", cupoMaximo: " + cupoMaximo +"]";
     }
 }

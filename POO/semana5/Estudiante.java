@@ -74,7 +74,7 @@ public class Estudiante {
     }
 
     // Setter programa
-    public void setPrograma(String programa) {
+    public void setPrograma(String programa) {                                                                        
         this.programa = programa;
     }
 
@@ -90,7 +90,7 @@ public class Estudiante {
         } else {
             System.out.println("El semestre debe ser mayor o igual a 1.");
         }
-    }
+    }                                                                                                                                                  
 
     // Método avanzar semestre
     public void avanzarSemestre() {
@@ -113,7 +113,6 @@ public class Estudiante {
     public String toString() {
 
     return "Estudiante [" + "nombre: " + nombre + ", documento: " + documento + ", edad: " + edad + ", correo: " + correo +
-    ", programa: " + programa + ", semestre: " + semestre +
-"]";
+    ", programa: " + programa + ", semestre: " + semestre +"]";
     }
 }
